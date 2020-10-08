@@ -1,0 +1,106 @@
+ 
+<h2><a  name= "Get-in-touch"></a></h2>
+             <div class = "container">
+                <div class = "Headings">
+                    <h1> CONTACT</h1>
+                </div>
+               
+<div class = "Social-Media">
+                    <div class ="button">   
+                        <a href ="#https://www.linkedin.com/in/mathlatsi-moloto-129b6518a/">
+                      <div class ="icons"><i class = "fa fa-linkedin"></i></div>
+                       <span>LINKEDIN </span>
+                    </a>
+                        </div>
+                        <div class ="button">   
+                            <div class ="icons"><i class = "fa fa-instagram"></i></div>
+                             <span>INSTAGRAM </span>
+                              </div>
+                              <div class ="button">   
+                                <div class ="icons"><i class = "fa fa-facebook"></i></div>
+                                 <span>FACEBOOK</span>
+                                  </div>
+                                  <div class ="button">
+                                 <div class ="icons"><i class = "fa fa-github"></i></div>
+                              <span> GITHUB</span>
+                          </div>  
+                      </div>   
+
+
+
+<,,<<,,style of contacts
+
+ .Social-Media .button{
+          display: inline-block;
+          height:60px;
+          width: 60px;
+          margin: 0 5px;
+          background-color: plum;
+          border-radius: 50%;
+          cursor: pointer;
+          box-shadow: rgba(53, 16, 28, 0);
+          transition: all 0.3s ease-out;
+          color: #fff;
+          border-radius: 50px;
+          overflow: hidden;
+      }
+      .Social-Media .button.icons:hover{
+          width: 200px; 
+          color: grey;
+
+      }
+
+      .Social-Media .button .icons{
+          display: inline-block;
+          height: 60px;
+          width:60px; 
+          text-align: center;
+      
+          box-sizing: border-box;
+          line-height: 60px;
+          transition: all 0.3s ease-out;
+
+      }
+      a{
+          height: 50px;
+          width: 60px;
+          color: #fff;
+
+      }
+      .Social-Media .button:nth-child(1):hover .icons{
+        background:#1DA1F2;
+       
+     }
+      .Social-Media .button:nth-child(2):hover .icons{
+       
+         background:#E1306C;
+     }
+     .Social-Media .button:nth-child(3):hover .icons{
+     
+       background:#426782;
+   }
+    .Social-Media .button:nth-child(4):hover .icons{
+         background:#333;
+     }
+     
+
+      .Social-Media .button .icons i{
+          font-size: 25px;
+          line-height: 60px;
+          transition: all 0.3s ease-out;
+      }
+      .Social-Media .button:hover .icons i{
+
+        color:plum;
+      }
+     
+
+      .Social-Media .button span{
+          font-size: 10px;
+          font-weight: 500;
+          line-height: 60px;
+          margin-left: 10px;
+      }
+     
+     
+
